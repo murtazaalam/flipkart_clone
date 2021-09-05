@@ -59,6 +59,10 @@ body{
     width: calc(100% - 540px);
     margin: 0 auto 0 12px;
 }
+.search-box .search-box-size{
+    max-width: 564px;
+    position: relative;
+}
 .search-box input{
     width: 100%;
     height: 36px;
@@ -70,6 +74,21 @@ body{
     outline: none;
     font-size: 14px;
 
+}
+.search-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+}
+.search-icon div{
+    display: flex;
+    align-items: center;
+    color: #2874f0;
+    font-size: 18px;
 }
 .user{
     min-width: 112px;
